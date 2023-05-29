@@ -25,7 +25,7 @@ public class WelcomeController {
 
 //    @Autowired
 //    private AuthenticationService authenticationService;
-
+//
 //    @RequestMapping(value="login",method = RequestMethod.POST)
 //    public String goToWelcomePage(@RequestParam String username, @RequestParam String password, ModelMap model) {
 //

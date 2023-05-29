@@ -20,18 +20,19 @@ public class StudentService {
     }
 
     public List<Student> findByName(String username){
-        Predicate<? super Student> predicate =
-                student -> student.getName().equalsIgnoreCase(username);
-        return students.stream().filter(predicate).toList();
+        return students;
     }
+//    public List<Student> findByName(String username){
+//        Predicate<? super Student> predicate =
+//                student -> student.getName().equalsIgnoreCase(username);
+//        return students.stream().filter(predicate).toList();
+//    }
+
     public void addStudent(String name){
         Student newStudent = new Student(++nbStudents,name,1);
         students.add(newStudent);
     }
-    public boolean studentExists(String name){
-        if (findByName(name)!= null) return false;
-        else return true;
-    }
+
 
     public void removeStudentById(long id){
         Predicate<? super Student> predicate =
