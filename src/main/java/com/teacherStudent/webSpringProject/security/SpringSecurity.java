@@ -20,7 +20,7 @@ public class SpringSecurity {
 
 
         UserDetails userDetails1 = createNewUser("Chrisk", "password!");
-        UserDetails userDetails2 = createNewUser("Michaels", "michael!");
+        UserDetails userDetails2 = createNewUser("Michael", "michael!");
 
         return new InMemoryUserDetailsManager(userDetails1,userDetails2);
     }
