@@ -14,9 +14,9 @@ public class StudentService {
 
     private static List<Student> students = new ArrayList<>();
     static {
-        students.add(new Student(++nbStudents,"David",3));
-        students.add(new Student(++nbStudents,"Michael",3));
-        students.add(new Student(++nbStudents,"Jarvey",2));
+        students.add(new Student(++nbStudents,"DavidG",3));
+        students.add(new Student(++nbStudents,"MichaelG",3));
+        students.add(new Student(++nbStudents,"JarveyG",2));
     }
 
     public List<Student> findByName(String username){
