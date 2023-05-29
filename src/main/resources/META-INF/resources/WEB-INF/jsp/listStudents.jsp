@@ -9,7 +9,7 @@
     <body>
         <%@ include file="common/navigation.jspf" %>
         <div class="container">
-            <h1>${username} this is the list of students : </h1>
+            <h1> ${username} this is the list of students : </h1>
             <hr>
             <table class="table">
                 <thead>
