@@ -2,10 +2,10 @@ insert into student (ID,NAME,STUDY_YEAR)
 values (1001,'Michael',3);
 
 insert into student (ID,NAME,STUDY_YEAR)
-values (1002,'George',3);
+values (1002,'George',2);
 
 insert into student (ID,NAME,STUDY_YEAR)
-values (1003,'David',3);
+values (1003,'David',1);
 
 insert into student (ID,NAME,STUDY_YEAR)
 values (1004,'Jane',3);
