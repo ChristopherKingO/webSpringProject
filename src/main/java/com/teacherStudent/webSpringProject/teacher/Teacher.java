@@ -2,6 +2,7 @@ package com.teacherStudent.webSpringProject.teacher;
 
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.validation.constraints.Pattern;
 
@@ -11,6 +12,7 @@ public class Teacher {
     public static int nbTeachers = 0;
 
     @Id
+    @GeneratedValue
     private int id;
 
     @Pattern(regexp="^[A-Z]+[a-z]{3,20}$",message="Enter a proper name with capital first letter and a minimum of 4 characters")
