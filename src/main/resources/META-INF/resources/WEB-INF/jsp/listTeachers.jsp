@@ -26,7 +26,6 @@
                         <td>${teachers.name}</td>
                         <td>${teachers.course}</td>
                         <td><a href="remove-teacher?id=${teachers.id}" class="btn btn-warning">Remove </td>
-                        <td><a href="update-teacher?id=${teachers.id}" class="btn btn-success">Update </td>
                     </tr>
 
                 </c:forEach>
